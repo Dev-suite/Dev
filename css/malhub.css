@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+.topbar {
+    background-color: #0c2e8a;
+    height: 40px;
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+.contact{
+    color: #acacac;
+    float: left;
+    padding-left: 25px;
+}
+.contact i{
+    font-size: 20px;
+}
+.social {
+    padding: 10px 90px;
+    color: #e91e63;
+    font: normal normal normal 14px/1 fontawesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: anitialiased;
+    float: right;
+    letter-spacing: 5px;
+}
+
+
+.social a{
+    padding: 4px 12px;
+    color: #e91e63;
+    display: inline-block;
+    line-height: 1px;
+}
+.social i{
+    font-size: 30px;
+}
+
+.contact {
+    color: #e91e63;
+    padding: 10px 60px;
+}
+
+.contact i a{
+    line-height: 1;
+}
+
+.ion-iphone{
+    margin-left: 20px;
+    display: inline;
+}
+.navbar {
+    background: white;
+    height: 84px;
+    width: 100%;
+    
+}
+
+
+nav ul {
+    float: right;
+    margin-right: 150px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a.brand-logo {
+    color: #666666;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 70px;
+    margin-left: 150px;
+}
+
+a:hover {
+    color: #E91E63;
+}
+
+main {
+    min-height: 300vh;
+}
+
+.banner {
+    background: url(/img/header.jpg);
+    height: 75vh;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+.ban-content1 {
+    color: #E91E63;
+    text-align: right;
+    font-size: 64px;
+    text-transform: uppercase;
+
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.con {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 14%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+}
+
+.ban-content3 {
+    text-align: right;
+}
+
+.ban-content3 button {
+    background-color: #081e5b;
+    border: 2px #081e5b;
+}
+
+.ban-content3 button a {
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 32px;
+    margin: 10px;
+    color: white;
+}
+
+.downbar {
+    text-align: center;
+}
+
+.can {
+    max-width: 720px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-head h2 {
+    text-align: center;
+    color: crimson;
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.section-head {
+    margin-bottom: 30px;
+}
+
+.about-section {
+    padding: 60px 0 60px 0;
+}
+
+.section-head p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.step {
+    float: left;
+    margin-right: -15px;
+    margin-left: -15px;
+    width: 100%;
+}
+
+.step-img {
+    float: left;
+    width: 50%;
+    
+}
+
+.step .step-img {
+    vertical-align: middle;
+    border-style: none;
+    margin-left: -15px;
+    max-width: 100%;
+    float: left;
+}
+
+.img-content h2 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    margin: 0 0 20px 0;
+    float: right;
+    width: 100%;
+    padding-right: 200px;
+    
+    
+}
+
+.content{
+    float: right; 
+    width: 50%;
+    padding-right: 15px;
+    list-style-type: square;
+    
+}
+
+.step-img li {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: px;
+}
+
+
+
+.our h2{
+    text-align: center;
+    color: crimson;
+    text-transform: capitalize;
+}
+.our p{
+    text-align: center;
+}
+
+.rows{
+    text-align: center;
+}
+
+.box{
+    width: 260px;
+  padding: 30px;
+  border: 5px solid cornsilk;
+  padding-left: 20px;
+  float: left;
+
+}
+
+.col-lg-4{
+    display: inline-block;
+    padding: 10px;
+}
+
+.icons{
+    float: none;
+    display: inline-block;
+    padding: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.icons i{
+    font-size: 44px;
+    color: crimson;
+
+}
+.icons h4 :visited{
+    font-weight: 700;
+    margin-bottom: 24px;
+    font-size: 22px;
+    width: 100%;
+    display: block;
+    float: left;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.icons p{
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+    margin: 0;
+    padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background: #081e5b;
+    padding: 14px;
+    color: #fff;
+    float: left;
+    width: 100%;
+}
